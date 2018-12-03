@@ -2,10 +2,10 @@
 class Conexion extends PDO { 
     /* Datos de conexion a mysql */
     private $gestor = 'mysql';
-    private $host = '201.148.104.80';
-    private $usu = 'nblcl';
-    private $pass = 'nbl123.';
-    private $nombre = 'nblcl_DB2';
+    private $host = '';
+    private $usu = '';
+    private $pass = '';
+    private $nombre = '';
 
     public function __construct() {    
         try{
