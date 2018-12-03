@@ -1,0 +1,258 @@
+:root {
+--background: rgb(19, 65, 135);
+--backgroundhover: rgb(45, 85, 180);
+}
+
+.col-center{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botonmenu2{
+    position: absolute;
+    top: 0px; 
+    left: 0px;
+}
+
+.login-container.login{
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.login{
+    background-color: #F7F7F7;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 100px;
+    display: block;
+    justify-content: center;    
+    align-content: center;
+    flex-direction: column;
+
+
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bg {
+background-color: var(--background);
+font-family:Helvetica, Helvetica Neue, Arial, sans-serif;
+font-weight:bold;
+color:white;
+text-shadow:6px 6px 8px rgba(0,0,0,0.5)
+}
+
+.bgnav {
+display: block;
+color:white;
+padding: 3px 10px 0px 10px;
+height: 30px;
+font-size: 15px;
+text-shadow:6px 6px 8px rgba(0,0,0,0.5);
+}
+
+.bgnav:hover {
+background-color: var(--backgroundhover);
+color:#FFFFFF;
+text-decoration: none;
+}
+
+.bgfooter {
+background-color: var(--background);
+}
+
+.bgfooter1 {
+font-family:Helvetica, Helvetica Neue, Arial, sans-serif;
+font-weight:bold;
+font-size: 15px;
+color:white;
+text-shadow:6px 6px 8px rgba(0,0,0,0.5)
+}
+
+.bgfooter2 {
+font-family:Helvetica, Helvetica Neue, Arial, sans-serif;
+font-weight:bold;
+font-size: 12px;
+color:white;
+text-shadow:6px 6px 8px rgba(0,0,0,0.5)
+}
+
+@media (max-width: 575.98px) {
+
+.login{
+    background-color: #F7F7F7;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;    
+    align-content: center;
+    flex-direction: column;
+    
+    width: 100%;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: none;
+}
+
+
+    .footercentrado {
+        padding: 0px 0px 0px 18%;
+        align-items:center;
+        align-content:center;
+    }
+    .bgfooter1{
+        font-size: 12px;
+    }
+    .bgfooter2{
+        font-size: 11px;
+    }    
+}
+.titulo{
+    font-family:Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight:bold;
+    text-decoration: underline;
+    font-size: 15px;
+    text-shadow:5px 10px 10px rgba(0,0,0,0.25)
+}
+.texto{
+    font-family:Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-size: 14px;    
+}
+.imagen{
+    width: 275px;
+    height: 275px;
+    border:solid;
+    border-width: 1px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.clientes{        
+    padding: 15px;
+    text-align: center;
+    border:solid;
+    border-width: 0px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+}
+.clientes-logo{ 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:solid;
+    border-width: 0px;
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.25);
+}
+
+.control-prev,
+.control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.control-prev:hover, .-control-prev:focus,
+.control-next:hover,
+.control-next:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+.control-prev {
+    left: 0;
+  }
+  
+.control-next {
+right: 0;
+}
+
+.control-prev-icon,
+.control-next-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+  
+.control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+
+/* configuracion del reloj */
+.reloj {
+    border-radius: 10px;
+    background-color:transparent;
+    text-align: center;
+    padding: 15px 0;
+}
+div.clock a { 
+    color: #333; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+div.clock.small a { } 
+div.clock.medium a { } 
+div.clock.large a { } 
+div.clock a:hover { text-decoration: underline; } 
+div.clock div.date { color: white; margin: 0 0 5px 0; } 
+div.clock.small div.date { font-size: 1em; } 
+div.clock.medium div.date { font-size: 1.25em; } 
+div.clock.large div.date { font-size: 1.5em; } 
+div.clock div.time { font-weight: 200; } 
+div.clock.small div.time { font-size: 1.5em; } 
+div.clock.medium div.time { font-size: 2.25em; } 
+div.clock.large div.time { font-size: 3em; } 
+div.clock div.time span { 
+    border-radius: 5px; 
+    padding: 1px 5px 3px 5px; 
+    color: #fff; /* fallback */ 
+    background: #000; /* Safari 4-5, Chrome 1-9 */ 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#555), to(#000)); /* Safari 5.1, Chrome 10+ */ 
+    background: -webkit-linear-gradient(top, #555, #000); /* Firefox 3.6+ */ 
+    background: -moz-linear-gradient(top, #555, #000); /* IE 10 */ 
+    background: -ms-linear-gradient(top, #555, #000); /* Opera 11.10+ */ 
+    background: -o-linear-gradient(top, #555, #000); 
+} 
+div.clock div.time span:nth-child(3) { 
+    color: #333; /* fallback */ 
+    background: #ddd; /* Safari 4-5, Chrome 1-9 */ 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#ccc)); /* Safari 5.1, Chrome 10+ */ 
+    background: -webkit-linear-gradient(top, #eee, #ccc); /* Firefox 3.6+ */ 
+    background: -moz-linear-gradient(top, #eee, #ccc); /* IE 10 */ 
+    background: -ms-linear-gradient(top, #eee, #ccc); /* Opera 11.10+ */ 
+    background: -o-linear-gradient(top, #eee, #ccc); 
+} 
+div.clock div.time strong { 
+    color: #666; 
+    font-weight: 100; 
+    font-size: 0.8em; 
+    margin-left: 5px; 
+} 
+div.clock.small div.time strong { } 
+div.clock.medium div.time strong { } 
+div.clock.large div.time strong { }
+
+/* fin configuracion reloj */

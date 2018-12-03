@@ -1,0 +1,59 @@
+#tablas {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tablas td, #tablas th {
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+
+#tablas tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#tablas tr:hover {
+    background-color: rgb(254, 141, 2);
+    color: white;
+
+}
+
+#tablas th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: var(--background);
+    color: white;
+    text-align: center;
+
+}
+
+@media (max-width: 768px) {
+
+    #ocultar_tabla{
+        display: none !important;
+    }
+}
+
+.modal{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+#tablas tr td a {
+    color: black;
+}
+#tablas tr td a:hover {
+    color: white;
+}
+
+.alinear-h {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align-last: left;
+}
