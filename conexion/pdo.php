@@ -1,3 +1,3 @@
 <?php
-$pdo = new PDO('mysql:host=201.148.104.80;dbname=nblcl_DB2','nblcl','nbl123.');
+$pdo = new PDO('mysql:host=222.2222.222.222;dbname=nombrebd','usuario','clave');
 ?>
